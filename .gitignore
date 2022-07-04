@@ -18,5 +18,7 @@ Desktop.ini
 /Rcam*/Temp
 /Rcam*/UserSettings
 
+/Rcam*/Builds/
+
 # Xcode
 /RcamController/Xcode
