@@ -8,10 +8,12 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.subsystemregistration": {
-      "version": "1.0.6",
+      "version": "1.1.0",
       "depth": 2,
       "source": "registry",
-      "dependencies": {},
+      "dependencies": {
+        "com.unity.modules.subsystems": "1.0.0"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.ugui": {
@@ -45,40 +47,44 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.arsubsystems": {
-      "version": "4.1.0-preview.7",
+      "version": "4.1.10",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.subsystemregistration": "1.0.6"
+        "com.unity.subsystemregistration": "1.1.0"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.legacyinputhelpers": {
-      "version": "2.1.4",
+      "version": "2.1.9",
       "depth": 2,
       "source": "registry",
-      "dependencies": {},
+      "dependencies": {
+        "com.unity.modules.vr": "1.0.0",
+        "com.unity.modules.xr": "1.0.0"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.management": {
-      "version": "3.2.13",
+      "version": "4.0.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.xr.legacyinputhelpers": "2.1.2",
+        "com.unity.modules.subsystems": "1.0.0",
+        "com.unity.modules.vr": "1.0.0",
+        "com.unity.modules.xr": "1.0.0",
+        "com.unity.xr.legacyinputhelpers": "2.1.7",
         "com.unity.subsystemregistration": "1.0.6"
       },
       "url": "https://packages.unity.com"
     },
     "jp.keijiro.klak.ndi": {
-      "version": "1.0.12",
+      "version": "file:jp.keijiro.klak.ndi@2.0.3",
       "depth": 0,
-      "source": "registry",
+      "source": "embedded",
       "dependencies": {
-        "com.unity.modules.screencapture": "1.0.0",
-        "org.nuget.system.memory": "4.5.3"
-      },
-      "url": "https://registry.npmjs.com"
+        "com.unity.modules.screencapture": "1.0.0"
+      }
     },
     "jp.keijiro.klak.vjui": {
       "version": "1.0.2",
